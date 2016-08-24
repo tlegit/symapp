@@ -22,10 +22,10 @@ Since this solution employs the `Flask` framework, the following modules are req
 
 On a Ubuntu system, the following commands are used to install these modules:
 ```
-apt-get update
-apt-get -y install python-pip
-pip install --upgrade pip
-pip install flask flask_oauth
+# apt-get update
+# apt-get -y install python-pip
+# pip install --upgrade pip
+# pip install flask flask_oauth
 ```
 
 ### Getting the application and related files/directories
@@ -61,7 +61,7 @@ Example:
 Now you can run the application. Make sure your current directory is `symapp`:
 ```
 # python app.py
-* Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
  * Restarting with stat
  * Debugger is active!
  * Debugger pin code: nnn-nnn-nnn
@@ -72,12 +72,12 @@ Now you can run the application. Make sure your current directory is `symapp`:
 Point your web browser to `http://localhost:5000`
 * Initially, you will see the Google login screen, login with your google email address/password
 * You may be prompted for one or more of the following messages:
-  ```
+```
   <project-name> would like to:
   1) Know who you are on Google
   2) View your email address 
   3) Have offline access
-  ```
+```
   Click the `Allow` button each time to proceed
 * When the Google account authentication is completed, you will see the `Select Option List` where you can select to list the LCBO `stores`, `inventories` or `products` in tabulated format.
 
@@ -111,7 +111,7 @@ Creating <container-name>
  * Debugger is active!
  * Debugger pin code: 236-035-556
 ```
-This runs the Docker container in the background. The second command above is to display the output of the first command in a container context.
+This runs the Docker container in the background. The second command above is to display the output of the first command.
 
 ### Using the application
 
