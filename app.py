@@ -1,7 +1,26 @@
+#===================================================================================   
 #
 # Date: August 23, 2016
 # Author: The-Binh Le
+# Usage:
+#   > python app.py
+#
+#----------------------------------------------------------------------------------
+#
+# This script does the following:
+# - checking required environment variables are set
+#   GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, LCBO_API_KEY, APP_SECRET_KEY
+#   + GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET can be obtained from Google web site
+#   + LCBO_API_KEY can be obtained from lcboapi web site
+#   + APP_SECRET_KEY can be set by user
+#   If any of the above variables is not set, the execution aborts
+# - authenticating user via Google account login using OAuth
+# - retrieving data from LCBO such as stores, inventories and products
 # 
+# This script can also be deployed in a Docker container. Its Docker image has
+# been built and loaded to Docker Hub.
+#
+#===================================================================================   
 
 from flask import Flask, redirect, url_for, session, request, render_template
 from flask_oauth import OAuth
