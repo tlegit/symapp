@@ -79,7 +79,7 @@ Point your web browser to `http://localhost:5000`
   3) Have offline access
 ```
   Click the `Allow` button each time to proceed
-* When the Google account authentication is completed, you will see the `Select Option List` where you can select to list the LCBO `stores`, `inventories` or `products` in tabulated format.
+* When the Google account authentication is completed, you will see the `Select option to list` page where you can select to list the LCBO `stores`, `inventories` or `products` in tabulated format.
 
 ### Terminating the application
 
