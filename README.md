@@ -128,6 +128,6 @@ Removing <container-name> ... done
 
 ## Conclusion
 
-The engineer use case is addressed in this implementation, however, the end-user use case is not, even though it is easier to implement. This is because of the security concern over having confidential information coded inside a publicly available Docker image (i.e., client ID, client secret and LCBO API key) that can be extracted by someone with a certain level of knowledge.
+The engineer use case is addressed in this implementation, however, the end-user use case is not, even though it is easier to implement (and could be considered a subset of the engineer story). This is because of the security concern over having confidential information coded inside a publicly available Docker image (i.e., client ID, client secret and LCBO API key) that can be extracted by someone with a certain level of knowledge.
 
 I trust that the engineer use case presented herein is adequate to also cover the end-user story in this case.
