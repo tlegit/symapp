@@ -1,0 +1,6 @@
+  mysymapp:
+    image: tledocker/symapp
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./secrets.env

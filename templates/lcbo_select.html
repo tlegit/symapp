@@ -1,0 +1,20 @@
+<!doctype html>
+
+<html>
+  <head>
+     <title>Select LCBO Options</title>
+  </head>
+  <body>
+    <form action="http://localhost:5000/lcbo_list" method="POST">
+      <div align="center">
+       <br><strong>Select option to list:</strong></br><br/>
+        <select name="drop-down-list">
+          <option value="stores">List LCBO Stores</option>
+          <option value="inventories">List LCBO Inventories</option>
+          <option value="products">List LCBO Products</option>
+        </select>
+        <p><input type="submit" value="Submit" /></p>
+      </div>
+   </form>
+  </body>
+</html>
